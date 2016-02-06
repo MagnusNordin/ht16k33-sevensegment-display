@@ -8,7 +8,7 @@ npm install ht16k33-sevensegment-display
 
 ###Example
 ```js
-var SevenSegment = require('./index');
+var SevenSegment = require('ht16k33-sevensegment-display');
 
 var display = new SevenSegment(0x70, 1);
 display.writeDigit(0, 8);
